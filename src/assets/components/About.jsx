@@ -2,12 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id='about' className='mt-32 mx-auto max-w-[400px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1200px] 2xl:max-w-[1440px]'>
+    <section id='about' className='mt-16 mx-auto max-w-[400px] sm:max-w-[600px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1200px] 2xl:max-w-[1440px]'>
       <div className='flex flex-col lg:flex-row justify-around gap-8 text-center'>
         <p className='text-white/80 bg-black/30 p-6 rounded-xl border-gray-100 border'>
           The <span className='text-[#FFF9D7] font-bold'>Quarantine Cup</span> of <span className='text-red-700 font-bold'>2020</span> is an international competitive Left 4 Dead 2 tournament 
-          that kicked off in April 16, 2020 and concluded in August 21, 2020, with European Team <span>Frag4</span> as the champions
-          and North American Team <span>LuckyGlock</span> as the runner-up.  
+          that kicked off in April 16, 2020 and concluded in August 21, 2020, with European Team <span className='font-semibold text-[#BD4291]'>Frag4</span> as the <span className='text-[#FFEF82]'>champions </span>
+            and North American Team <span className='text-[#EFD345]'>LuckyGlock</span> as the <span className='text-[#A0BCC2]'>runner-up</span>.  
         </p>
         <p className='text-white/80 bg-black/30 p-6 rounded-xl border-gray-100 border'>
           The tournament was born out of the early periods of the global COVID epidemic back in March 2020. Many Left 4 Dead players found themselves

@@ -8,8 +8,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className='max-w-[420px] sm:max-w-[600px] md:max-w-[720px] lg:max-w-[840px] 
-    xl:max-w-[1100px] 2xl:max-w-[1440px] w-full max-h-[100px] flex justify-around 
+    <div className='max-w-[420px] sm:max-w-[600px] md:max-w-[720px] lg:max-w-[960px] 
+    xl:max-w-[1200px] 2xl:max-w-[1440px] w-full max-h-[100px] flex justify-around 
     px-8 items-center mx-auto mt-5 bg-black/30 
     rounded-xl border border-gray-100 shadow-lg'>
 
