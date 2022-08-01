@@ -9,7 +9,7 @@ const Matches = () => {
       {/* Filter by Round */}
       <div>
         <h2 className='text-center mt-20 mb-5 text-[#D61C4E] font-semibold text-2xl'>Swiss Stage</h2>
-        <div className='flex justify-evenly max-w-[1440px] p-4'>
+        <div className='flex gap-1 justify-evenly max-w-[1440px] p-4 mx-auto'>
           <button className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Round 1</button>
           <button className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Round 2</button>
           <button className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Round 3</button>
