@@ -86,7 +86,98 @@ const swiss = [
         game4: {
           title: 'Vandalas vs Baller Squad',
           video: 'https://www.twitch.tv/videos/636167355?collection=c6MeofFsDxZOFg&filter=collections&sort=time'
+        },
+        game5: {
+          title: 'South Stars vs. EVO',
+          video: 'https://www.youtube.com/watch?v=IqiH4D1Ez_I'
         }
       }
+    },
+
+    // Round 4
+
+  {
+    id: 4,
+    map: 'I Hate Mountains',
+    matches: {
+      game1: {
+        title: 'Frag4 vs South Stars',
+        video: 'https://www.youtube.com/watch?v=wvuwa03WoCA'
+      },
+      game2: {
+        title: 'Provid 19 vs Baller Squad',
+        video: 'https://www.twitch.tv/videos/643355982?collection=c6MeofFsDxZOFg'
+      },
+      game3: {
+        title: 'Deeply Closeted vs Discordia',
+        video: 'https://www.youtube.com/watch?v=xWQgi1i02KM'
+      },
+      game4: {
+        title: 'Nightmare Guns vs Anoxity',
+        video: 'https://www.youtube.com/watch?v=E1EQewWc_c8'
+      },
+      game5: {
+        title: 'EVO vs Cosmic Mind',
+        video: 'https://www.twitch.tv/videos/645370165?collection=c6MeofFsDxZOFg'
+      }
     }
+  },
+
+  // Round 5 
+
+  {
+    id: 5,
+    map: 'The Parish',
+    matches: {
+      game1: {
+        title: 'Penguins of Madagascar vs. Deeply Closeted',
+        video: 'https://www.twitch.tv/videos/650941064?filter=highlights&sort=time'
+      },
+      game2: {
+        title: 'South Stars vs. LuckyGlock',
+        video: 'https://www.twitch.tv/videos/650933886?filter=highlights&sort=time'
+      },
+      game3: {
+        title: '5MO vs Yung Bloods',
+        video: 'https://www.youtube.com/watch?v=UQWC_T8wl6I'
+      },
+      game4: {
+        title: 'Provid 19 vs. AD',
+        video: 'https://www.youtube.com/watch?v=Qgh6LvVkU4M'
+      },
+      game5: {
+        title: 'Vandalas vs Russian Meat Pub',
+        video: 'https://www.youtube.com/watch?v=0BtXyQEk9hA'
+      },
+      game6: {
+        title: 'EVO vs. Aquilax',
+        video: 'https://www.twitch.tv/videos/650945166?filter=highlights&sort=time'
+      }
+    }
+  },
+
+  // Round 6 
+
+  {
+    id: 6,
+    map: 'Suicide Blitz',
+    matches: {
+      game1: {
+        title: 'EVO vs. LuckyGlock',
+        video: 'https://www.twitch.tv/videos/656754987?collection=c6MeofFsDxZOFg'
+      },
+      game2: {
+        title: '44 Biceps vs. Hogwarts',
+        video: 'https://www.twitch.tv/videos/656755095?collection=c6MeofFsDxZOFg'
+      },
+      game3: {
+        title: 'Deeply Closeted vs. Mix',
+        video: 'https://www.twitch.tv/videos/657100711?collection=c6MeofFsDxZOFg'
+      },
+      game4: {
+        title: 'Insaccs vs Constant Motion',
+        video: 'https://www.twitch.tv/videos/662026284?collection=c6MeofFsDxZOFg'
+      }
+    }
+  },
 ]
