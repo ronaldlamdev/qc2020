@@ -14,4 +14,5 @@
 
 body {
   background-color: #003865;
+  box-sizing: border-box;
 }

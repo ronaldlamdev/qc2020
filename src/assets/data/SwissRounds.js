@@ -1,4 +1,4 @@
-const swiss = [
+export const swiss = [
 
   // Round 1
   {

@@ -1,5 +1,6 @@
 import Navbar from "./assets/components/Navbar"
 import About from "./assets/components/About"
+import Matches from "./assets/components/Matches"
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <About />
+      <Matches />
     </div>
   )
 }
