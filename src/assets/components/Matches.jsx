@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
-// import { swiss }from '../data/SwissRounds';
+import { swiss }from '../data/SwissRounds';
 
 const Matches = () => {
 
-  // const [rounds, setRounds] = useState(swiss);
+  const [games, setGames] = useState(swiss);
 
   return (
     <div id='matches' className='max-w-[1440px] m-auto px-4 py-16'>
@@ -25,11 +25,11 @@ const Matches = () => {
       </div>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4'>
-        {/* {rounds.map((round, index) => (
+        {games.map((game, index) => (
           <div className=' flex justify-center' key={index}>
-            <iframe width={420} height={320} src={round.matches.game1.video}></iframe>
+            <iframe width={420} height={320} src={game.video}></iframe>
           </div>
-        ))} */}
+        ))}
       </div>
     </div>
   )
