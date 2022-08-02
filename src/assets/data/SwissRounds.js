@@ -52,7 +52,7 @@ export const swiss = [
     round: 2,
     map: 'Dead Air',
     title: 'Frag4 vs CyberBullies',
-    video: 'https://www.youtube.com/embed/wycg0oE_HoM&t=3979s'
+    video: 'https://www.youtube.com/embed/wycg0oE_HoM'
   },
   {
     id: 8,
@@ -104,7 +104,7 @@ export const swiss = [
     round: 3,
     map: 'Dead Center',
     title: 'Frag4 vs LuckyGlock',
-    video: 'https://www.youtube.com/embed/vhfUwOYExeE&t=1015s'
+    video: 'https://www.youtube.com/embed/vhfUwOYExeE'
   },
   {
     id: 15,
@@ -253,6 +253,6 @@ export const swiss = [
     round: 6,
     map: 'Suicide Blitz',
     title: 'Frag4 vs. 5MO',
-    video: 'https://www.youtube.com/embed/zrtBhqju00Q&t=3949s'
+    video: 'https://www.youtube.com/embed/zrtBhqju00Q'
   }
 ]
