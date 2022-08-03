@@ -24,12 +24,12 @@ const Matches = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-10'>
         {games.map((game, index) => (
-          <div className=' flex justify-center flex-col' key={index}>
-            <iframe className='w-full h-[300px] rounded-md' src={game.video}></iframe>
-            <div className="flex justify-center">
-              <p className='text-white'>{game.title}</p>
+          <div className='flex justify-center flex-col' key={index}>
+            <iframe className='w-full h-[300px] rounded-md mb-2' src={game.video}></iframe>
+            <div className="flex justify-center bg-black/30 border border-white rounded-lg">
+              <p className='text-white py-4'><span className='text-[#72FFFF] font-bold'>{game.team1}</span> vs. <span className='text-red-600 font-bold'>{game.team2}</span></p>
             </div>
           </div>
         ))}

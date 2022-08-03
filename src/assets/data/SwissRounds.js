@@ -6,42 +6,48 @@ export const swiss = [
     id: 1,
     round: 1,
     map: 'Haunted Forest',
-    title: 'Lost in the Sauce vs. Duplex',
+    team1: 'Lost in the Sauce',
+    team2: 'Duplex',
     video: 'https://www.youtube.com/embed/SZwrNCTnjFQ'
   },
   {
     id: 2,
     round: 1,
     map: 'Haunted Forest',
-    title: 'LuckyGlock vs Officially-Unofficial',
+    team1: 'LuckyGlock',
+    team2: 'Officially-Unofficial',
     video: 'https://www.youtube.com/embed/X06OUh0xks0'
   },
   {
     id: 3,
     round: 1,
     map: 'Haunted Forest',
-    title: 'Aquilax vs. Mix',
+    team1: 'Aquilax',
+    team2: 'Mix',
     video: 'https://www.youtube.com/embed/fqzfKH_REW8'
   },
   {
     id: 4,
     round: 1,
     map: 'Haunted Forest',
-    title: 'Frag4 vs Provid 19',
+    team1: 'Frag4',
+    team2: 'Provid 19',
     video: 'https://www.youtube.com/embed/1i4Ke-PwxNg'
   },
   {
     id: 5,
     round: 1,
     map: 'Haunted Forest',
-    title: 'South Stars vs Penguins of Madagascar',
+    team1: 'South Stars',
+    team2: 'Penguins of Madagascar',
     video: 'https://www.youtube.com/embed/9Rl8K1ASWqU'
   },
   {
     id: 6,
     round: 1,
     map: 'Haunted Forest',
-    title: 'EVO vs. Constant Motion',
+    team1: 'EVO',
+    team2: 'Constant Motion',
     video: 'https://www.youtube.com/embed/NJtFWsyp8qQ'
   },
 
@@ -51,28 +57,32 @@ export const swiss = [
     id: 7,
     round: 2,
     map: 'Dead Air',
-    title: 'Frag4 vs CyberBullies',
+    team1: 'Frag4',
+    team2: 'CyberBullies',
     video: 'https://www.youtube.com/embed/wycg0oE_HoM'
   },
   {
     id: 8,
     round: 2,
     map: 'Dead Air',
-    title: 'Yung Bloods vs Quick Cleans',
+    team1: 'Yung Bloods',
+    team2: 'Quick Cleans',
     video: 'https://www.youtube.com/embed/huYxc8XsDZY'
   },
   {
     id: 9,
     round: 2,
     map: 'Dead Air',
-    title: 'Aquilax vs AD',
+    team1: 'Aquilax',
+    team2: 'AD',
     video: 'https://www.youtube.com/embed/xMrw-YtM9RI'
   },
   {
     id: 10,
     round: 2,
     map: 'Dead Air',
-    title: 'LuckyGlock vs. 44 Biceps',
+    team1: 'LuckyGlock',
+    team2: '44 Biceps',
     video: 'https://www.youtube.com/embed/v8ow20Ro6tQ'
   },
   {
@@ -80,13 +90,16 @@ export const swiss = [
     round: 2,
     map: 'Dead Air',
     title: 'South Stars vs. Deeply Closeted',
+    team1: 'South Stars',
+    team2: 'Deeply Closeted',
     video: 'https://www.youtube.com/embed/3sLqmy5v5Ts'
   },
   {
     id: 12,
     round: 2,
     map: 'Dead Air',
-    title: 'Penguins of Madagascar vs. Nightmare Guns',
+    team1: 'Penguins of Madagascar',
+    team2: 'Nightmare Guns',
     video: 'https://www.youtube.com/embed/iHgYEk8SQzk'
   },
 
@@ -96,42 +109,48 @@ export const swiss = [
     id: 13,
     round: 3,
     map: 'Dead Center',
-    title: 'South Stars vs. EVO',
+    team1: 'South Stars',
+    team2: 'EVO',
     video: 'https://www.youtube.com/embed/IqiH4D1Ez_I'
   },
   {
     id: 14,
     round: 3,
     map: 'Dead Center',
-    title: 'Frag4 vs LuckyGlock',
+    team1: 'Frag4',
+    team2: 'LuckyGlock',
     video: 'https://www.youtube.com/embed/vhfUwOYExeE'
   },
   {
     id: 15,
     round: 3,
     map: 'Dead Center',
-    title: 'G2 vs Aquilax',
+    team1: 'G2',
+    team2: 'Aquilax',
     video: 'https://www.youtube.com/embed/KHfdGVqRR8c'
   },
   {
     id: 16,
     round: 3,
     map: 'Dead Center',
-    title: 'vandalas vs. Baller Squad',
+    team1: 'Vandalas',
+    team2: 'Baller Squad',
     video: 'https://www.youtube.com/embed/3wm631dX0HQ'
   },
   {
     id: 17,
     round: 3,
     map: 'Dead Center',
-    title: 'Lost in the Sauce vs. 5MO (Part 1)',
+    team1: 'Lost in the Sauce',
+    team2: '5MO',
     video: 'https://www.youtube.com/embed/HZQymj0R-XM'
   },
   {
     id: 18,
     round: 3,
     map: 'Dead Center',
-    title: 'Lost in the Sauce vs. 5MO (Part 2)',
+    team1: 'Lost in the Sauce',
+    team2: '5MO',
     video: 'https://www.youtube.com/embed/w4HJPkenxvQ'
   },
 
@@ -141,35 +160,40 @@ export const swiss = [
     id: 19,
     round: 4,
     map: 'I Hate Mountains',
-    title: 'Frag4 vs South Stars',
+    team1: 'Frag4',
+    team2: 'South Stars',
     video: 'https://www.youtube.com/embed/wvuwa03WoCA'
   },
   {
     id: 20,
     round: 4,
     map: 'I Hate Mountains',
-    title: 'Deeply Closeted vs Discordia',
+    team1: 'Deeply Closeted',
+    team2: 'Discordia',
     video: 'https://www.youtube.com/embed/xWQgi1i02KM'
   },
   {
     id: 21,
     round: 4,
     map: 'I Hate Mountains',
-    title: 'Nightmare Guns vs Anoxity',
+    team1: 'Nightmare Guns',
+    team2: 'Anoxity',
     video: 'https://www.youtube.com/embed/E1EQewWc_c8'
   },
   {
     id: 22,
     round: 4,
     map: 'I Hate Mountains',
-    title: 'Provid 19 vs. Baller Squad',
+    team1: 'Provid 19',
+    team2: 'Baller Squad',
     video: 'https://www.youtube.com/embed/Tio1gaSnFhM'
   },
   {
     id: 23,
     round: 4,
     map: 'I Hate Mountains',
-    title: 'EVO vs. Cosmic Mind',
+    team1: 'EVO',
+    team2: 'Cosmic Mind',
     video: 'https://www.youtube.com/embed/mNhL0jK_oFA'
   },
 
@@ -179,42 +203,48 @@ export const swiss = [
     id: 24,
     round: 5,
     map: 'The Parish',
-    title: 'Discordia vs. Safe House',
+    team1: 'Discordia',
+    team2: 'Safe House',
     video: 'https://www.youtube.com/embed/VPvxgNLa0qk'
   },
   {
     id: 25,
     round: 5,
     map: 'The Parish',
-    title: '5MO vs Yung Bloods',
+    team1: '5MO',
+    team2: 'Yung Bloods',
     video: 'https://www.youtube.com/embed/UQWC_T8wl6I'
   },
   {
     id: 26,
     round: 5,
     map: 'The Parish',
-    title: 'Provid 19 vs. AD',
+    team1: 'Provid 19',
+    team2: 'AD',
     video: 'https://www.youtube.com/embed/Qgh6LvVkU4M'
   },
   {
     id: 27,
     round: 5,
     map: 'The Parish',
-    title: 'Vandalas vs Russian Meat Pub',
+    team1: 'Vandalas',
+    team2: 'Russian Meat Pub',
     video: 'https://www.youtube.com/embed/0BtXyQEk9hA'
   },
   {
     id: 28,
     round: 5,
     map: 'The Parish',
-    title: 'Insaccs vs. Duplex',
+    team1: 'Insaccs',
+    team2: 'Duplex',
     video: 'https://www.youtube.com/embed/0FnEeJPUj9E'
   },
   {
     id: 29,
     round: 5,
     map: 'The Parish',
-    title: 'Frag4 vs. G2',
+    team1: 'Frag4',
+    team2: 'G2',
     video: 'https://www.youtube.com/embed/RjyxCh3DZHw'
   },
 
@@ -224,35 +254,40 @@ export const swiss = [
     id: 30,
     round: 6,
     map: 'Suicide Blitz',
-    title: 'EVO vs. LuckyGlock',
+    team1: 'EVO',
+    team2: 'LuckyGlock',
     video: 'https://www.youtube.com/embed/uT1jdXEJN84'
   },
   {
     id: 31,
     round: 6,
     map: 'Suicide Blitz',
-    title: '44 Biceps vs. Hogwarts',
+    team1: '44 Biceps',
+    team2: 'Hogwarts',
     video: 'https://www.youtube.com/embed/8nquwu8ilMw'
   },
   {
     id: 32,
     round: 6,
     map: 'Suicide Blitz',
-    title: 'Deeply Closeted vs. Mix',
+    team1: 'Deeply Closeted',
+    team2: 'Mix',
     video: 'https://www.youtube.com/embed/QpsgqPFGf6g'
   },
   {
     id: 33,
     round: 6,
     map: 'Suicide Blitz',
-    title: 'Insaccs vs Constant Motion',
+    team1: 'Insaccs',
+    team2: 'Constant Motion',
     video: 'https://www.youtube.com/embed/kUHygMXKdcM'
   },
   {
     id: 34,
     round: 6,
     map: 'Suicide Blitz',
-    title: 'Frag4 vs. 5MO',
+    team1: 'Frag4',
+    team2: '5MO',
     video: 'https://www.youtube.com/embed/zrtBhqju00Q'
   }
 ]
