@@ -72,8 +72,8 @@ export const swiss = [
     id: 8,
     round: 2,
     map: 'Dead Air',
-    team1: 'Yung Bloods',
-    team2: 'Quick Cleans',
+    team1: 'Quick Cleans',
+    team2: 'Yung Bloods',
     part: '',
     video: 'https://www.youtube.com/embed/huYxc8XsDZY'
   },
@@ -196,8 +196,8 @@ export const swiss = [
     id: 21,
     round: 4,
     map: 'I Hate Mountains',
-    team1: 'Nightmare Guns',
-    team2: 'Anoxity',
+    team1: 'Anoxity',
+    team2: 'Nightmare Guns',
     part: '',
     video: 'https://www.youtube.com/embed/E1EQewWc_c8'
   },
@@ -263,19 +263,19 @@ export const swiss = [
     id: 28,
     round: 5,
     map: 'The Parish',
-    team1: 'Vandalas',
-    team2: 'Russian Meat Pub',
-    part: '',
-    video: 'https://www.youtube.com/embed/0BtXyQEk9hA'
+    team1: 'LuckyGlock',
+    team2: 'South Stars',
+    part: '(Part 1)',
+    video: 'https://www.youtube.com/embed/QsZ1BNgvtd8'
   },
   {
     id: 29,
     round: 5,
     map: 'The Parish',
-    team1: 'Insaccs',
-    team2: 'Duplex',
-    part: '',
-    video: 'https://www.youtube.com/embed/0FnEeJPUj9E'
+    team1: 'LuckyGlock',
+    team2: 'South Stars',
+    part: '(Part 2)',
+    video: 'https://www.youtube.com/embed/3esdBbJI6Kk'
   },
   {
     id: 30,
