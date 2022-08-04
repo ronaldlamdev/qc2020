@@ -8,6 +8,7 @@ export const swiss = [
     map: 'Haunted Forest',
     team1: 'Lost in the Sauce',
     team2: 'Duplex',
+    part: '',
     video: 'https://www.youtube.com/embed/SZwrNCTnjFQ'
   },
   {
@@ -16,6 +17,7 @@ export const swiss = [
     map: 'Haunted Forest',
     team1: 'LuckyGlock',
     team2: 'Officially-Unofficial',
+    part: '',
     video: 'https://www.youtube.com/embed/X06OUh0xks0'
   },
   {
@@ -24,6 +26,7 @@ export const swiss = [
     map: 'Haunted Forest',
     team1: 'Aquilax',
     team2: 'Mix',
+    part: '',
     video: 'https://www.youtube.com/embed/fqzfKH_REW8'
   },
   {
@@ -32,6 +35,7 @@ export const swiss = [
     map: 'Haunted Forest',
     team1: 'Frag4',
     team2: 'Provid 19',
+    part: '',
     video: 'https://www.youtube.com/embed/1i4Ke-PwxNg'
   },
   {
@@ -40,6 +44,7 @@ export const swiss = [
     map: 'Haunted Forest',
     team1: 'South Stars',
     team2: 'Penguins of Madagascar',
+    part: '',
     video: 'https://www.youtube.com/embed/9Rl8K1ASWqU'
   },
   {
@@ -48,6 +53,7 @@ export const swiss = [
     map: 'Haunted Forest',
     team1: 'EVO',
     team2: 'Constant Motion',
+    part: '',
     video: 'https://www.youtube.com/embed/NJtFWsyp8qQ'
   },
 
@@ -59,6 +65,7 @@ export const swiss = [
     map: 'Dead Air',
     team1: 'Frag4',
     team2: 'CyberBullies',
+    part: '',
     video: 'https://www.youtube.com/embed/wycg0oE_HoM'
   },
   {
@@ -67,6 +74,7 @@ export const swiss = [
     map: 'Dead Air',
     team1: 'Yung Bloods',
     team2: 'Quick Cleans',
+    part: '',
     video: 'https://www.youtube.com/embed/huYxc8XsDZY'
   },
   {
@@ -75,6 +83,7 @@ export const swiss = [
     map: 'Dead Air',
     team1: 'Aquilax',
     team2: 'AD',
+    part: '',
     video: 'https://www.youtube.com/embed/xMrw-YtM9RI'
   },
   {
@@ -83,6 +92,7 @@ export const swiss = [
     map: 'Dead Air',
     team1: 'LuckyGlock',
     team2: '44 Biceps',
+    part: '',
     video: 'https://www.youtube.com/embed/v8ow20Ro6tQ'
   },
   {
@@ -92,6 +102,7 @@ export const swiss = [
     title: 'South Stars vs. Deeply Closeted',
     team1: 'South Stars',
     team2: 'Deeply Closeted',
+    part: '',
     video: 'https://www.youtube.com/embed/3sLqmy5v5Ts'
   },
   {
@@ -100,6 +111,7 @@ export const swiss = [
     map: 'Dead Air',
     team1: 'Penguins of Madagascar',
     team2: 'Nightmare Guns',
+    part: '',
     video: 'https://www.youtube.com/embed/iHgYEk8SQzk'
   },
 
@@ -111,6 +123,7 @@ export const swiss = [
     map: 'Dead Center',
     team1: 'South Stars',
     team2: 'EVO',
+    part: '',
     video: 'https://www.youtube.com/embed/IqiH4D1Ez_I'
   },
   {
@@ -119,6 +132,7 @@ export const swiss = [
     map: 'Dead Center',
     team1: 'Frag4',
     team2: 'LuckyGlock',
+    part: '',
     video: 'https://www.youtube.com/embed/vhfUwOYExeE'
   },
   {
@@ -127,6 +141,7 @@ export const swiss = [
     map: 'Dead Center',
     team1: 'G2',
     team2: 'Aquilax',
+    part: '',
     video: 'https://www.youtube.com/embed/KHfdGVqRR8c'
   },
   {
@@ -135,6 +150,7 @@ export const swiss = [
     map: 'Dead Center',
     team1: 'Vandalas',
     team2: 'Baller Squad',
+    part: '',
     video: 'https://www.youtube.com/embed/3wm631dX0HQ'
   },
   {
@@ -143,6 +159,7 @@ export const swiss = [
     map: 'Dead Center',
     team1: 'Lost in the Sauce',
     team2: '5MO',
+    part: '(Part 1)',
     video: 'https://www.youtube.com/embed/HZQymj0R-XM'
   },
   {
@@ -151,6 +168,7 @@ export const swiss = [
     map: 'Dead Center',
     team1: 'Lost in the Sauce',
     team2: '5MO',
+    part: '(Part 2)',
     video: 'https://www.youtube.com/embed/w4HJPkenxvQ'
   },
 
@@ -162,6 +180,7 @@ export const swiss = [
     map: 'I Hate Mountains',
     team1: 'Frag4',
     team2: 'South Stars',
+    part: '',
     video: 'https://www.youtube.com/embed/wvuwa03WoCA'
   },
   {
@@ -170,6 +189,7 @@ export const swiss = [
     map: 'I Hate Mountains',
     team1: 'Deeply Closeted',
     team2: 'Discordia',
+    part: '',
     video: 'https://www.youtube.com/embed/xWQgi1i02KM'
   },
   {
@@ -178,6 +198,7 @@ export const swiss = [
     map: 'I Hate Mountains',
     team1: 'Nightmare Guns',
     team2: 'Anoxity',
+    part: '',
     video: 'https://www.youtube.com/embed/E1EQewWc_c8'
   },
   {
@@ -186,6 +207,7 @@ export const swiss = [
     map: 'I Hate Mountains',
     team1: 'Provid 19',
     team2: 'Baller Squad',
+    part: '',
     video: 'https://www.youtube.com/embed/Tio1gaSnFhM'
   },
   {
@@ -194,100 +216,122 @@ export const swiss = [
     map: 'I Hate Mountains',
     team1: 'EVO',
     team2: 'Cosmic Mind',
+    part: '',
     video: 'https://www.youtube.com/embed/mNhL0jK_oFA'
   },
+  {
+    id: 24,
+    round: 4,
+    map: 'I Hate Mountains',
+    team1: 'LuckyGlock',
+    team2: 'AD',
+    part: '',
+    video: 'https://www.youtube.com/embed/oMpRfCqny6c'
+  },
+
 
   // Round 5
 
   {
-    id: 24,
+    id: 25,
     round: 5,
     map: 'The Parish',
     team1: 'Discordia',
     team2: 'Safe House',
+    part: '',
     video: 'https://www.youtube.com/embed/VPvxgNLa0qk'
-  },
-  {
-    id: 25,
-    round: 5,
-    map: 'The Parish',
-    team1: '5MO',
-    team2: 'Yung Bloods',
-    video: 'https://www.youtube.com/embed/UQWC_T8wl6I'
   },
   {
     id: 26,
     round: 5,
     map: 'The Parish',
-    team1: 'Provid 19',
-    team2: 'AD',
-    video: 'https://www.youtube.com/embed/Qgh6LvVkU4M'
+    team1: '5MO',
+    team2: 'Yung Bloods',
+    part: '',
+    video: 'https://www.youtube.com/embed/UQWC_T8wl6I'
   },
   {
     id: 27,
     round: 5,
     map: 'The Parish',
-    team1: 'Vandalas',
-    team2: 'Russian Meat Pub',
-    video: 'https://www.youtube.com/embed/0BtXyQEk9hA'
+    team1: 'Provid 19',
+    team2: 'AD',
+    part: '',
+    video: 'https://www.youtube.com/embed/Qgh6LvVkU4M'
   },
   {
     id: 28,
     round: 5,
     map: 'The Parish',
-    team1: 'Insaccs',
-    team2: 'Duplex',
-    video: 'https://www.youtube.com/embed/0FnEeJPUj9E'
+    team1: 'Vandalas',
+    team2: 'Russian Meat Pub',
+    part: '',
+    video: 'https://www.youtube.com/embed/0BtXyQEk9hA'
   },
   {
     id: 29,
     round: 5,
     map: 'The Parish',
+    team1: 'Insaccs',
+    team2: 'Duplex',
+    part: '',
+    video: 'https://www.youtube.com/embed/0FnEeJPUj9E'
+  },
+  {
+    id: 30,
+    round: 5,
+    map: 'The Parish',
     team1: 'Frag4',
     team2: 'G2',
+    part: '',
     video: 'https://www.youtube.com/embed/RjyxCh3DZHw'
   },
 
   // Round 6
 
   {
-    id: 30,
+    id: 31,
     round: 6,
     map: 'Suicide Blitz',
     team1: 'EVO',
     team2: 'LuckyGlock',
+    part: '',
     video: 'https://www.youtube.com/embed/uT1jdXEJN84'
-  },
-  {
-    id: 31,
-    round: 6,
-    map: 'Suicide Blitz',
-    team1: '44 Biceps',
-    team2: 'Hogwarts',
-    video: 'https://www.youtube.com/embed/8nquwu8ilMw'
   },
   {
     id: 32,
     round: 6,
     map: 'Suicide Blitz',
-    team1: 'Deeply Closeted',
-    team2: 'Mix',
-    video: 'https://www.youtube.com/embed/QpsgqPFGf6g'
+    team1: '44 Biceps',
+    team2: 'Hogwarts',
+    part: '',
+    video: 'https://www.youtube.com/embed/8nquwu8ilMw'
   },
   {
     id: 33,
     round: 6,
     map: 'Suicide Blitz',
-    team1: 'Insaccs',
-    team2: 'Constant Motion',
-    video: 'https://www.youtube.com/embed/kUHygMXKdcM'
+    team1: 'Deeply Closeted',
+    team2: 'Mix',
+    part: '',
+    video: 'https://www.youtube.com/embed/QpsgqPFGf6g'
   },
   {
     id: 34,
     round: 6,
     map: 'Suicide Blitz',
+    team1: 'Insaccs',
+    team2: 'Constant Motion',
+    part: '',
+    video: 'https://www.youtube.com/embed/kUHygMXKdcM'
+  },
+  {
+    id: 35,
+    round: 6,
+    map: 'Suicide Blitz',
     team1: 'Frag4',
     team2: '5MO',
+    part: '',
     video: 'https://www.youtube.com/embed/zrtBhqju00Q'
   }
 ]

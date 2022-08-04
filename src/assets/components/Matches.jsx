@@ -40,7 +40,7 @@ const Matches = () => {
           <div className='flex justify-center flex-col' key={index}>
             <iframe className='w-full h-[300px] rounded-md mb-2' src={game.video}></iframe>
             <div className="flex justify-center bg-black/30 border border-white rounded-lg">
-              <p className='text-white py-4'><span className='text-[#72FFFF] font-bold'>{game.team1}</span> vs. <span className='text-red-600 font-bold'>{game.team2}</span></p>
+              <p className='text-white py-4'><span className='text-[#72FFFF] font-bold'>{game.team1}</span> vs. <span className='text-red-600 font-bold'>{game.team2}</span> <span className='text-gray-300'>{game.part}</span></p>
             </div>
           </div>
         ))}
