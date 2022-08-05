@@ -121,7 +121,16 @@ const playoffs = [
     map: 'Open Road',
     team1: 'Frag4',
     team2: 'LuckyGlock',
+    part: 'Thanatos POV',
+    video: 'https://www.youtube.com/embed/OgKrPo-iiyA'
+  },
+  {
+    id: 13,
+    round: 4,
+    map: 'Dead Before Dawn',
+    team1: 'Frag4',
+    team2: 'Aquilax',
     part: '',
-    video: 'https://www.youtube.com/embed/bHdBAJS2Lyw'
+    video: 'https://www.youtube.com/embed/C0QJVYTjfgk'
   },
 ]

@@ -302,22 +302,31 @@ export const swiss = [
     id: 32,
     round: 6,
     map: 'Suicide Blitz',
+    team1: 'EVO',
+    team2: 'LuckyGlock',
+    part: '(Nevermore POV - Home Game)',
+    video: 'https://www.youtube.com/embed/EdfwNUKM_gg'
+  },
+  {
+    id: 33,
+    round: 6,
+    map: 'Suicide Blitz',
+    team1: 'EVO',
+    team2: 'LuckyGlock',
+    part: '(Nevermore POV - Away Game)',
+    video: 'https://www.youtube.com/embed/oODOgPR2YvU'
+  },
+  {
+    id: 34,
+    round: 6,
+    map: 'Suicide Blitz',
     team1: '44 Biceps',
     team2: 'Hogwarts',
     part: '',
     video: 'https://www.youtube.com/embed/8nquwu8ilMw'
   },
   {
-    id: 33,
-    round: 6,
-    map: 'Suicide Blitz',
-    team1: 'Deeply Closeted',
-    team2: 'Mix',
-    part: '',
-    video: 'https://www.youtube.com/embed/QpsgqPFGf6g'
-  },
-  {
-    id: 34,
+    id: 35,
     round: 6,
     map: 'Suicide Blitz',
     team1: 'Insaccs',
@@ -326,7 +335,7 @@ export const swiss = [
     video: 'https://www.youtube.com/embed/kUHygMXKdcM'
   },
   {
-    id: 35,
+    id: 36,
     round: 6,
     map: 'Suicide Blitz',
     team1: 'Frag4',
