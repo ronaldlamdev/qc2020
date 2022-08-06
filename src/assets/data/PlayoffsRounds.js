@@ -1,4 +1,4 @@
-const playoffs = [
+export const playoffs = [
 
   // Round 1
 
@@ -124,6 +124,9 @@ const playoffs = [
     part: 'Thanatos POV',
     video: 'https://www.youtube.com/embed/OgKrPo-iiyA'
   },
+
+  // Round 4
+
   {
     id: 13,
     round: 4,
@@ -133,9 +136,12 @@ const playoffs = [
     part: '(Thanatos POV)',
     video: 'https://www.youtube.com/embed/C0QJVYTjfgk'
   },
+
+  // Round 5 (Semifinals)
+
   {
     id: 14,
-    round: 'Semi-finals',
+    round: 'Semifinal',
     map: 'Dark Carnival',
     team1: 'LuckyGlock',
     team2: 'Aquilax',
@@ -144,13 +150,16 @@ const playoffs = [
   },
   {
     id: 15,
-    round: 'Semi-finals',
+    round: 'Semifinal',
     map: 'Dark Carnival',
     team1: 'LuckyGlock',
     team2: 'Aquilax',
     part: '(Nevermore POV - Away Game)',
     video: 'https://www.youtube.com/embed/3H7A7sGI1wk'
   },
+
+    // Round 6 (Final)
+
   {
     id: 16,
     round: 'Final',
