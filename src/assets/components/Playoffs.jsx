@@ -21,13 +21,13 @@ const Playoffs = () => {
       <div className='max-w-[1640px]'>
         <h2 className='text-center mt-20 mb-5 text-[#FFF56D] font-semibold text-2xl'>Playoffs</h2>
         <div className='flex flex-wrap gap-1 justify-around max-w-[1440px] p-4 mx-auto'>
-          <button onClick={() => setPlayoffGames(playoffs)} className='bg-[#1F4690] px-7 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300 tracking-wider'>All</button>
-          <button onClick={() => filterRound(1)} className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Round 1</button>
-          <button onClick={() => filterRound(2)} className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Round 2</button>
-          <button onClick={() => filterRound(3)} className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Round 3</button>
-          <button onClick={() => filterRound(4)} className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Round 4</button>
-          <button onClick={() => filterRound('Semifinal')} className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Semifinal</button>
-          <button onClick={() => filterRound('Final')} className='bg-[#1F4690] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#5E5DF0] border border-white duration-300'>Final</button>
+          <button onClick={() => setPlayoffGames(playoffs)} className='bg-[#2EB086] px-7 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#8A39E1] border border-white duration-300 tracking-wider'>All</button>
+          <button onClick={() => filterRound(1)} className='bg-[#2EB086] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#8A39E1] border border-white duration-300'>Round 1</button>
+          <button onClick={() => filterRound(2)} className='bg-[#2EB086] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#8A39E1] border border-white duration-300'>Round 2</button>
+          <button onClick={() => filterRound(3)} className='bg-[#2EB086] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#8A39E1] border border-white duration-300'>Round 3</button>
+          <button onClick={() => filterRound(4)} className='bg-[#2EB086] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#8A39E1] border border-white duration-300'>Round 4</button>
+          <button onClick={() => filterRound('Semifinal')} className='bg-[#2EB086] px-2 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#8A39E1] border border-white duration-300'>Semifinal</button>
+          <button onClick={() => filterRound('Final')} className='bg-[#2EB086] px-5 py-3 rounded-2xl text-white hover:bg-transparent hover:text-[#8A39E1] border border-white duration-300'>Final</button>
         </div>
       </div>
 

@@ -24,7 +24,7 @@ const Navbar = () => {
           <a className='hover:underline hover:underline-offset-3' href='#about'><li>About</li></a>
           <a className='hover:underline hover:underline-offset-3' href='#matches'><li>Matches</li></a>
           <a className='hover:underline hover:underline-offset-3' href='#teams'><li>Teams</li></a>
-          <a className='hover:underline hover:underline-offset-3' href='#more'><li>FAQS</li></a>
+          <a className='hover:underline hover:underline-offset-3' href='#more'><li>More</li></a>
         </ul>
       </div>
 
