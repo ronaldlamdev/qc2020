@@ -53,7 +53,7 @@ const playoffs = [
     map: 'Blood Harvest',
     team1: 'Frag4',
     team2: 'Deeply Closeted',
-    part: '',
+    part: '(Thanatos POV)',
     video: 'https://www.youtube.com/embed/ZWLiXlgnbu8'
   },
 
@@ -83,7 +83,7 @@ const playoffs = [
     map: 'The Passifice',
     team1: 'Frag4',
     team2: 'Yung Bloods',
-    part: '',
+    part: '(Thanatos POV)',
     video: 'https://www.youtube.com/embed/xfjJI7HXkR0'
   },
   {
@@ -130,7 +130,43 @@ const playoffs = [
     map: 'Dead Before Dawn',
     team1: 'Frag4',
     team2: 'Aquilax',
-    part: '',
+    part: '(Thanatos POV)',
     video: 'https://www.youtube.com/embed/C0QJVYTjfgk'
+  },
+  {
+    id: 14,
+    round: 'Semi-finals',
+    map: 'Dark Carnival',
+    team1: 'LuckyGlock',
+    team2: 'Aquilax',
+    part: '(Nevermore POV - Home Game)',
+    video: 'https://www.youtube.com/embed/LfFp4yWT8lk'
+  },
+  {
+    id: 15,
+    round: 'Semi-finals',
+    map: 'Dark Carnival',
+    team1: 'LuckyGlock',
+    team2: 'Aquilax',
+    part: '(Nevermore POV - Away Game)',
+    video: 'https://www.youtube.com/embed/3H7A7sGI1wk'
+  },
+  {
+    id: 16,
+    round: 'Final',
+    map: 'Hard Rain Downpour',
+    team1: 'Frag4',
+    team2: 'LuckyGlock',
+    part: '(Nevermore POV)',
+    video: 'https://www.youtube.com/embed/1-VINiVazjo'
+  },
+  {
+    id: 17,
+    round: 'Final',
+    map: 'Hard Rain Downpour',
+    team1: 'Frag4',
+    team2: 'LuckyGlock',
+    part: '(Thanatos POV)',
+    video: 'https://www.youtube.com/embed/EtvpUA9e6-c'
   },
 ]

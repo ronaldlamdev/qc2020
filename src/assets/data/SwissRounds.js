@@ -225,7 +225,7 @@ export const swiss = [
     map: 'I Hate Mountains',
     team1: 'LuckyGlock',
     team2: 'AD',
-    part: '',
+    part: '(Nevermore POV)',
     video: 'https://www.youtube.com/embed/oMpRfCqny6c'
   },
 
@@ -265,7 +265,7 @@ export const swiss = [
     map: 'The Parish',
     team1: 'LuckyGlock',
     team2: 'South Stars',
-    part: '(Part 1)',
+    part: '(Nevermore POV - Away Game)',
     video: 'https://www.youtube.com/embed/QsZ1BNgvtd8'
   },
   {
@@ -274,7 +274,7 @@ export const swiss = [
     map: 'The Parish',
     team1: 'LuckyGlock',
     team2: 'South Stars',
-    part: '(Part 2)',
+    part: '(Nevermore POV - Home Game)',
     video: 'https://www.youtube.com/embed/3esdBbJI6Kk'
   },
   {
@@ -283,7 +283,7 @@ export const swiss = [
     map: 'The Parish',
     team1: 'Frag4',
     team2: 'G2',
-    part: '',
+    part: '(Thanatos POV)',
     video: 'https://www.youtube.com/embed/RjyxCh3DZHw'
   },
 
@@ -340,7 +340,7 @@ export const swiss = [
     map: 'Suicide Blitz',
     team1: 'Frag4',
     team2: '5MO',
-    part: '',
+    part: '(Thanatos POV)',
     video: 'https://www.youtube.com/embed/zrtBhqju00Q'
   }
 ]
