@@ -16,7 +16,7 @@ const Swiss = () => {
   };
 
   return (
-    <div id="swiss">
+    <div name="swiss">
       {/* Button filter by Swiss Rounds */}
       <div className='max-w-[1640px]'>
         <h2 className='text-center mt-20 mb-5 text-[#F77E21] font-semibold text-2xl'>Swiss</h2>

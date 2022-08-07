@@ -1,16 +1,12 @@
 import React, {useState} from 'react';
 import Logo from '../images/qc2020logo-mini-new.png';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
+import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
 
   const [nav, setNav] = useState(false);
-
-  const DropdownHover = () => {
-    const matchdropdown = document.getElementById('matches-dropdown');
-    matchdropdown.classList.toggle('flex');
-  }
 
   return (
     <div className='max-w-[350px] sm:max-w-[600px] md:max-w-[720px] lg:max-w-[960px] 
@@ -24,16 +20,32 @@ const Navbar = () => {
       </a>
 
       {/* Navbar links for desktop and laptop size screens */}
-      <div className='w-[800px] relative'>
+      <div className='w-[800px]'>
         <ul className='hidden md:flex justify-around text-white/90'>
-          <a className='hover:underline hover:underline-offset-3' href='#about'><li>About</li></a>
-          <a onMouseOver={DropdownHover} href='#matches'><li>Matches</li></a>
-          <div id='matches-dropdown' className='bg-[#3B9AE1] gap-2 absolute top-[1.15rem] left-[16.75rem] hidden flex-col'>
-            <a className='border-b py-3 text-center' href='#swiss'>Swiss</a>
-            <a className='py-3 w-20 text-center' href='#playoffs'>Playoffs</a>
+          <a className='hover:underline hover:underline-offset-3'>
+            <li>
+              <Link to="about" className='cursor-pointer' smooth={true} duration={500}>
+                About
+              </Link>
+            </li>
+          </a>
+          <div className='relative'>
+            <button className='peer'>Matches</button>
+            <div className='bg-[#3B9AE1] min-w-[100px] absolute top-[1.15rem] left-0 hidden peer-hover:flex hover:flex flex-col rounded-md'>
+              <a className='border-b py-[.92rem] text-center hover:bg-black/30'>
+                <Link to="swiss" className='cursor-pointer' smooth={true} duration={500}>
+                  Swiss
+                </Link>
+              </a>
+              <a className='py-[.92rem] text-center hover:bg-black/30'>
+                <Link to="playoffs" className='cursor-pointer' smooth={true} duration={500}>
+                  Playoffs
+                </Link>
+              </a>
+            </div>
           </div>
-          <a className='hover:underline hover:underline-offset-3' href='#teams'><li>Teams</li></a>
-          <a className='hover:underline hover:underline-offset-3' href='#more'><li>More</li></a>
+          <a className='hover:underline hover:underline-offset-3'><li>Teams</li></a>
+          <a className='hover:underline hover:underline-offset-3'><li>More</li></a>
         </ul>
       </div>
 
