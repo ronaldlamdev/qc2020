@@ -7,6 +7,11 @@ const Navbar = () => {
 
   const [nav, setNav] = useState(false);
 
+  const DropdownHover = () => {
+    const matchdropdown = document.getElementById('matches-dropdown');
+    matchdropdown.classList.toggle('flex');
+  }
+
   return (
     <div className='max-w-[350px] sm:max-w-[600px] md:max-w-[720px] lg:max-w-[960px] 
     xl:max-w-[1200px] 2xl:max-w-[1440px] w-full max-h-[150px] flex justify-around 
@@ -19,10 +24,14 @@ const Navbar = () => {
       </a>
 
       {/* Navbar links for desktop and laptop size screens */}
-      <div className='w-[800px]'>
+      <div className='w-[800px] relative'>
         <ul className='hidden md:flex justify-around text-white/90'>
           <a className='hover:underline hover:underline-offset-3' href='#about'><li>About</li></a>
-          <a className='hover:underline hover:underline-offset-3' href='#matches'><li>Matches</li></a>
+          <a onMouseOver={DropdownHover} href='#matches'><li>Matches</li></a>
+          <div id='matches-dropdown' className='bg-[#3B9AE1] gap-2 absolute top-[1.15rem] left-[16.75rem] hidden flex-col'>
+            <a className='border-b py-3 text-center' href='#swiss'>Swiss</a>
+            <a className='py-3 w-20 text-center' href='#playoffs'>Playoffs</a>
+          </div>
           <a className='hover:underline hover:underline-offset-3' href='#teams'><li>Teams</li></a>
           <a className='hover:underline hover:underline-offset-3' href='#more'><li>More</li></a>
         </ul>

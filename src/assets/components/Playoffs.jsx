@@ -16,7 +16,7 @@ const Playoffs = () => {
   };
 
   return (
-    <div>
+    <div id='playoffs'>
       {/* Button filter by Playoff Rounds */}
       <div className='max-w-[1640px]'>
         <h2 className='text-center mt-20 mb-5 text-[#FFF56D] font-semibold text-2xl'>Playoffs</h2>
