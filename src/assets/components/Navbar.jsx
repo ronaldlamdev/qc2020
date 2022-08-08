@@ -58,11 +58,33 @@ const Navbar = () => {
 
         <div className={nav ? 'flex flex-col items-end fixed bg-[#1F4690] text-gray-300 top-0 right-0 w-[200px] sm:w-[300px] p-4 h-screen md:hidden' : 'hidden'}>
           <AiOutlineClose onClick={() => setNav(!nav)} className='cursor-pointer' size={25}/>
-          <ul className='flex flex-col justify-around items-center h-[200px] mt-10'>
-            <a className='hover:underline hover:underline-offset-3' href='#about'><li>About</li></a>
-            <a className='hover:underline hover:underline-offset-3' href='#matches'><li>Matches</li></a>
-            <a className='hover:underline hover:underline-offset-3' href='#teams'><li>Teams</li></a>
-            <a className='hover:underline hover:underline-offset-3' href='#more'><li>More</li></a>
+          <ul className='flex flex-col justify-around items-end h-[200px] mt-10'>
+            <a className='hover:underline hover:underline-offset-3'>
+              <li>
+                <Link to="about" onClick={() => setNav(!nav)} className='cursor-pointer' smooth={true} duration={500}>
+                  About
+                </Link>
+              </li>
+            </a>
+            <div>
+            <details className='cursor-pointer'>
+              <summary>Matches</summary>
+              <div id="dropdown" className='flex flex-col text-right'>
+              <a className='hover:underline py-2'>
+                <Link to="swiss" onClick={() => setNav(!nav)} className='cursor-pointer text-[#F77E21]' smooth={true} duration={500}>
+                  Swiss
+                </Link>
+              </a>
+              <a className='hover:underline py-2'>
+                <Link to="playoffs" onClick={() => setNav(!nav)} className='cursor-pointer text-[#FFF56D]' smooth={true} duration={500}>
+                  Playoffs
+                </Link>
+              </a>
+            </div>
+            </details>
+          </div>
+            <a className='hover:underline hover:underline-offset-3'><li>Teams</li></a>
+            <a className='hover:underline hover:underline-offset-3'><li>More</li></a>
           </ul>
         </div>
 
