@@ -20,7 +20,7 @@ const Navbar = () => {
       </a>
 
       {/* Navbar links for desktop and laptop size screens */}
-      <div className='w-[800px]'>
+      <div className='w-[1200px]'>
         <ul className='hidden md:flex justify-around text-white/90'>
             <Link to="about" className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
               About
@@ -36,7 +36,10 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <a className='hover:underline hover:underline-offset-3'><li>Teams</li></a>
+          <Link to="standings" className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+            Standings
+          </Link>
+          <a>Highlights</a>
           <a className='hover:underline hover:underline-offset-3'><li>More</li></a>
         </ul>
       </div>
