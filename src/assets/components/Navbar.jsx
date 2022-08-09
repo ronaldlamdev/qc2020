@@ -22,26 +22,18 @@ const Navbar = () => {
       {/* Navbar links for desktop and laptop size screens */}
       <div className='w-[800px]'>
         <ul className='hidden md:flex justify-around text-white/90'>
-          <a className='hover:underline hover:underline-offset-3'>
-            <li>
-              <Link to="about" className='cursor-pointer' smooth={true} duration={500}>
-                About
-              </Link>
-            </li>
-          </a>
+            <Link to="about" className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+              About
+            </Link>
           <div className='relative'>
             <button className='peer'>Matches</button>
-            <div className='bg-[#3B9AE1] min-w-[100px] absolute top-[1.15rem] left-0 hidden peer-hover:flex hover:flex flex-col rounded-md'>
-              <a className='border-b py-[.92rem] text-center hover:bg-black/30'>
-                <Link to="swiss" className='cursor-pointer' smooth={true} duration={500}>
-                  Swiss
-                </Link>
-              </a>
-              <a className='py-[.92rem] text-center hover:bg-black/30'>
-                <Link to="playoffs" className='cursor-pointer' smooth={true} duration={500}>
-                  Playoffs
-                </Link>
-              </a>
+            <div className='bg-[#3B9AE1] min-w-[100px] absolute top-[1.15rem] left-[-.95rem] hidden peer-hover:flex hover:flex flex-col rounded-md'>
+              <Link to="swiss" className='cursor-pointer border-b py-[.92rem] text-center hover:bg-black/30' smooth={true} duration={500}>
+                Swiss
+              </Link>
+              <Link to="playoffs" className='cursor-pointer py-[.92rem] text-center hover:bg-black/30' smooth={true} duration={500}>
+                Playoffs
+              </Link>
             </div>
           </div>
           <a className='hover:underline hover:underline-offset-3'><li>Teams</li></a>
@@ -59,28 +51,20 @@ const Navbar = () => {
         <div className={nav ? 'flex flex-col items-end fixed bg-[#1F4690] text-gray-300 top-0 right-0 w-[200px] sm:w-[300px] p-4 h-screen md:hidden duration-300' : 'right-[-300px] duration-300'}>
           <AiOutlineClose onClick={() => setNav(!nav)} className={nav ? 'flex cursor-pointer' : 'hidden' } size={25}/>
           <ul className={nav ? 'flex flex-col justify-around items-end h-[200px] mt-10' : 'hidden'}>
-            <a className='hover:underline hover:underline-offset-3'>
-              <li>
-                <Link to="about" onClick={() => setNav(!nav)} className='cursor-pointer' smooth={true} duration={500}>
-                  About
-                </Link>
-              </li>
-            </a>
+            <Link to="about" onClick={() => setNav(!nav)} className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+              About
+            </Link>
             <div>
             <details className='cursor-pointer'>
               <summary>Matches</summary>
               <div id="dropdown" className='flex flex-col text-right'>
-              <a className='hover:underline py-2'>
-                <Link to="swiss" onClick={() => setNav(!nav)} className='cursor-pointer text-[#F77E21]' smooth={true} duration={500}>
+                <Link to="swiss" onClick={() => setNav(!nav)} className='cursor-pointer text-[#F77E21] hover:underline py-2' smooth={true} duration={500}>
                   Swiss
                 </Link>
-              </a>
-              <a className='hover:underline py-2'>
-                <Link to="playoffs" onClick={() => setNav(!nav)} className='cursor-pointer text-[#FFF56D]' smooth={true} duration={500}>
+                <Link to="playoffs" onClick={() => setNav(!nav)} className='cursor-pointer text-[#FFF56D] hover:underline py-2' smooth={true} duration={500}>
                   Playoffs
                 </Link>
-              </a>
-            </div>
+              </div>
             </details>
           </div>
             <a className='hover:underline hover:underline-offset-3'><li>Teams</li></a>
