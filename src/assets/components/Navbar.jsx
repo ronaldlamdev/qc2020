@@ -39,8 +39,12 @@ const Navbar = () => {
           <Link to="standings" className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
             Standings
           </Link>
-          <a>Highlights</a>
-          <a className='hover:underline hover:underline-offset-3'><li>More</li></a>
+          <Link to="highlights" className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+            Highlights
+          </Link>
+          <Link to="more" className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+            More
+          </Link>
         </ul>
       </div>
 
@@ -58,20 +62,27 @@ const Navbar = () => {
               About
             </Link>
             <div>
-            <details className='cursor-pointer'>
-              <summary>Matches</summary>
-              <div id="dropdown" className='flex flex-col text-right'>
-                <Link to="swiss" onClick={() => setNav(!nav)} className='cursor-pointer text-[#F77E21] hover:underline py-2' smooth={true} duration={500}>
-                  Swiss
-                </Link>
-                <Link to="playoffs" onClick={() => setNav(!nav)} className='cursor-pointer text-[#FFF56D] hover:underline py-2' smooth={true} duration={500}>
-                  Playoffs
-                </Link>
-              </div>
-            </details>
-          </div>
-            <a className='hover:underline hover:underline-offset-3'><li>Teams</li></a>
-            <a className='hover:underline hover:underline-offset-3'><li>More</li></a>
+              <details className='cursor-pointer'>
+                <summary>Matches</summary>
+                <div id="dropdown" className='flex flex-col text-right'>
+                  <Link to="swiss" onClick={() => setNav(!nav)} className='cursor-pointer text-[#F77E21] hover:underline py-2' smooth={true} duration={500}>
+                    Swiss
+                  </Link>
+                  <Link to="playoffs" onClick={() => setNav(!nav)} className='cursor-pointer text-[#FFF56D] hover:underline py-2' smooth={true} duration={500}>
+                    Playoffs
+                  </Link>
+                </div>
+              </details>
+            </div>
+            <Link to="standings" onClick={() => setNav(!nav)} className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+              Standings
+            </Link>
+            <Link to="highlights" onClick={() => setNav(!nav)} className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+              Highlights
+            </Link>
+            <Link to="more" onClick={() => setNav(!nav)} className='cursor-pointer hover:underline hover:underline-offset-3' smooth={true} duration={500}>
+              More
+            </Link>
           </ul>
         </div>
 

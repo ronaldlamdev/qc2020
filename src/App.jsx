@@ -14,7 +14,7 @@ function App() {
       <About />
       <Matches />
       <Standings />
-      {/* <Highlights /> */}
+      <Highlights />
     </div>
   )
 }

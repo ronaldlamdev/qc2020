@@ -3,7 +3,7 @@ import { standings } from '../data/Standings'
 
 const Standings = () => {
   return (
-    <div name="standings" className='py-10'>
+    <div name="standings" className='py-10 px-4'>
       <h1 className='text-center text-yellow-200 text-3xl py-12'>Standings</h1>
       <div className='grid max-w-[1440px] mx-auto p-4 gap-6 grid-cols-1 lg:grid-cols-3 bg-black/20 rounded-md'>
       {standings.map((team, index) => (
