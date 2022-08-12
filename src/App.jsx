@@ -3,7 +3,7 @@ import About from "./assets/components/About"
 import Matches from "./assets/components/Matches"
 import Standings from "./assets/components/Standings"
 import Highlights from "./assets/components/Highlights"
-
+import More from "./assets/components/More"
 
 function App() {
   
@@ -15,6 +15,7 @@ function App() {
       <Matches />
       <Standings />
       <Highlights />
+      <More />
     </div>
   )
 }
